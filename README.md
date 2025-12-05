@@ -4,7 +4,7 @@ Welcome to my Kotlin projects repository! This directory contains a collection o
 
 ## Overview
 
-This repository includes four Android applications, each focusing on different aspects of Jetpack Compose development:
+This repository includes five Android applications, each focusing on different aspects of Jetpack Compose development:
 - State management
 - User interaction
 - UI layout and design
@@ -47,6 +47,15 @@ A tip calculator application that teaches user input handling and real-time calc
 - **Key Concepts**: TextField input handling, State management, Calculations, Number formatting, Switch component
 - **Technologies**: Kotlin, Jetpack Compose, Material Design 3
 - **Min SDK**: 24 | **Target SDK**: 35 | **Compile SDK**: 35
+
+### 5. **Affirmations**
+
+A scrollable list application that demonstrates data classes, lists, and lazy loading in Jetpack Compose.
+
+- **Features**: Scrollable list of 10 affirmation cards, each with an image and motivational text, smooth scrolling with LazyColumn
+- **Key Concepts**: LazyColumn composables, Card components, Data classes, Lists in Compose, Image composables, Resource management
+- **Technologies**: Kotlin, Jetpack Compose, Material Design 3
+- **Min SDK**: 24 | **Target SDK**: 33 | **Compile SDK**: 33
 
 ## Technologies Used
 
@@ -122,6 +131,7 @@ These projects are designed to progressively teach Jetpack Compose concepts:
 2. **HappyBirthday** - Learn layout and image composition
 3. **Lemonade** - Understand multi-step state management
 4. **TipTime** - Master user input and calculations
+5. **Affirmations** - Learn lists, data classes, and lazy loading
 
 ## License
 
